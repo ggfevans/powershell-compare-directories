@@ -29,6 +29,25 @@ This script helps identify:
 | `checkContent` | Switch | No | Compare file contents with MD5 |
 | `includeMissingFromA` | Switch | No | Find files in B missing from A |
 
+## Installation
+
+### Direct Download
+
+1. Download `Compare-DirectoryStructure.ps1` from this repository
+2. Save it to your preferred scripts directory
+3. Run it directly using PowerShell
+
+That's it! No complex setup required.
+
+Example:
+```powershell
+# Navigate to where you saved the script
+cd C:\Path\To\Scripts
+
+# Run the script with parameters
+.\Compare-DirectoryStructure.ps1 -folderA "C:\SourceFiles" -folderB "D:\BackupFiles"
+```
+
 ## Sample Output
 
 ```
