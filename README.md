@@ -1,5 +1,9 @@
 # powershell-compare-directories
 
+![PowerShell Version](https://img.shields.io/badge/PowerShell-5.1+-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 A simple PowerShell script for comparing two directory structures to identify file differences.
 
 ## Compare-DirectoryStructure.ps1
@@ -8,6 +12,16 @@ This script helps identify:
 - Missing files between directories
 - Files with different sizes or timestamps
 - Optional content comparison with MD5 hashes
+
+## Requirements
+
+- PowerShell 5.1 or higher
+- Works on Windows, macOS (with PowerShell Core), and Linux (with PowerShell Core)
+- No additional modules required
+- Standard user permissions (admin privileges not required unless comparing protected directories)
+- Sufficient memory for large directory comparisons (memory usage scales with the number of files)
+
+The script is designed to be cross-platform compatible with minimal dependencies, making it easy to use in various environments.
 
 ## Usage
 
